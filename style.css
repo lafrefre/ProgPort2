@@ -1,11 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 section {
     height: 500px;
-    background-color:rgba(191, 49, 49, 0.425);
+    background-color:#bf31316c;
     border: solid black 3px;
 }
 
 .hero {
-    background-color: rgba(191, 49, 49, 0.425);
+    background-color: #bf31316c;
     height: 100vh;
     font-size: 50px;
     color: white;
@@ -18,38 +23,65 @@ footer {
 
 nav {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 
 ul {
 display: flex;
 list-style: none;
-width: 500px
-justify-content: space-evenly;
 font-size: 25px;
 
 }
 
 li{
-    text-decoration:none;
-    width: 200px; ;
-    margin-left: 40px;
-
+    text-decoration: none;
+    width: 200px;
 }
 h1 {
     font-size: 45px;
-    margin-left: 10px;
+    margin: 30px;
 }
 
 p {
-font-size: 30px;
-margin-left: 10px;
+    font-size: 25px ;
+    margin: 30px;
 }
 
-button {
-    width: 100px;
-    height: 50px;
-    text-size-adjust: 50px;
-    margin-left: 10px;
+.hero-all {
+   display:flex; 
+   flex-direction: column;
+   height: 65%;
+   justify-content: center;
 
+}
+
+
+.hero-sec {
+    margin-left: 20px;
+    margin-bottom: 60px ;}
+/* this is where my class sec comes in cluch. i can add and edit that sction without habing to do everything indiviually */
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+button:hover {
+   background-color:#c25f5f6c ;
+}
+
+button:active {
+    background-color: #bf313171;
+    color: white;
+    /* for my button i decide to had effects for the hover and click. since my button doesnt havea class value i will not use a period. if i did use a period before i put button it really wount do anything. *REMINDER*
+    im actually really hapy with how my page is coming along
+    *REMINDER* GO BACK AND FIX VIEW OF PAGE ON PHONE*
+    */
 }
