@@ -1,0 +1,55 @@
+section {
+    height: 500px;
+    background-color:rgba(191, 49, 49, 0.425);
+    border: solid black 3px;
+}
+
+.hero {
+    background-color: rgba(191, 49, 49, 0.425);
+    height: 100vh;
+    font-size: 50px;
+    color: white;
+}
+
+footer {
+    height: 500x;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+ul {
+display: flex;
+list-style: none;
+width: 500px
+justify-content: space-evenly;
+font-size: 25px;
+
+}
+
+li{
+    text-decoration:none;
+    width: 200px; ;
+    margin-left: 40px;
+
+}
+h1 {
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+p {
+font-size: 30px;
+margin-left: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    text-size-adjust: 50px;
+    margin-left: 10px;
+
+}
