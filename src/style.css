@@ -49,9 +49,9 @@ p {
 
 .hero-all {
    display:flex; 
-   flex-direction: column;
    height: 65%;
-   justify-content: center;
+   justify-content: space-between;
+   align-items: center;
 
 }
 
@@ -84,4 +84,8 @@ button:active {
     im actually really hapy with how my page is coming along
     *REMINDER* GO BACK AND FIX VIEW OF PAGE ON PHONE*
     */
+}
+
+.socials {
+    margin:20px ;
 }
