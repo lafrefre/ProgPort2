@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px ;
 }
 
 section {
@@ -11,9 +12,10 @@ section {
 
 .hero {
     background-color: #bf31316c;
-    height: 100vh;
+    /* height: 100vh; */
     font-size: 50px;
     color: white;
+    overflow: hidden;
 }
 
 footer {
@@ -24,7 +26,10 @@ footer {
 nav {
     display: flex;
     justify-content:space-between;
+    background-color: #000000;
+
 }
+
 
 ul {
 display: flex;
@@ -57,8 +62,10 @@ p {
 
 
 .hero-sec {
-    margin-left: 20px;
-    margin-bottom: 60px ;}
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
 /* this is where my class sec comes in cluch. i can add and edit that sction without habing to do everything indiviually */
 
 button {
@@ -74,7 +81,7 @@ button {
 }
 
 button:hover {
-   background-color:#c25f5f6c ;
+   background-color:#c25f5f6c;
 }
 
 button:active {
@@ -87,5 +94,17 @@ button:active {
 }
 
 .socials {
-    margin:20px ;
+    margin:20px;
+}
+
+.project-card {
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    box-shadow:black 3px 3px 6px 0px inset ;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-around;
 }
